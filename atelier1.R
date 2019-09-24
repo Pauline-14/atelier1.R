@@ -34,5 +34,9 @@ summary(poids)
 imc <- poids/tailles.m^2
 imc #pour afficher les valeurs de imc
 donnees <- data.frame(tailles,poids,imc) #construction d'une base de données
+# remarque : est ce qu'on peut construire une variable allant de 0 à 1 million ?
+x <- seq(from=0, to=10^6,by=1)
+x #va que jusqu'à mille
+x[10000]
 
 
